@@ -22,7 +22,12 @@ urlpatterns = [
     path('blog/',include('blog.urls')),
     path('register/',user_views.register,name='register'),
     path('profile/', user_views.profile, name='profile'),
-
+    path('activate/<str:uidb64>/<str:token>/',
+        user_views.activate, name='activate'),
+    path('change_password/',user_views.change_password,name='change_password'),
     path('login/',auth_views.LoginView.as_view(template_name='users/login.html'),name='login'),
     path('logout/',auth_views.LogoutView.as_view(template_name='users/logout.html'),name='logout'),
+    path('email_reset_password/',user_views.forgot_password,name = 'forgot_password'),
+    path('reset_password/<str:uidb64>/<str:token>/',user_views.reset_password,name='reset_password'),
+    path('create_password/',user_views.create_password,name='create_password'),
 ]

@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
@@ -124,3 +124,13 @@ STATIC_URL = '/static/'
 LOGIN_REDIRECT_URL = 'profile'
 
 LOGIN_URL = 'login'
+
+AUTHENTICATION_BACKENDS = ['users.models.EmailBackend']
+
+AUTH_USER_MODEL = 'users.User'
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'amanve12345@gmail.com'
+EMAIL_HOST_PASSWORD = 'Aman@12345'
+EMAIL_PORT = 587

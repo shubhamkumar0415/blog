@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bc07019-aef8-4adf-b524-178b6272364e" name="Default Changelist" comment="" />
+    <list default="true" id="9bc07019-aef8-4adf-b524-178b6272364e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/acc_activate_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/change_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/create_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/email_reset_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/reset_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,13 +29,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XHqfZisBXnrUGz1fA3cWzluAIG" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,14 +48,57 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysite" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/gitrepo/dict_reverse.py" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/users" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.task">
+    <configuration name="dict_reverse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="django_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/gitrepo" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/gitrepo/dict_reverse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="django_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/users" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/users/task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="time" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="django_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,6 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task" />
+        <item itemvalue="Python.dict_reverse" />
         <item itemvalue="Python.time" />
       </list>
     </recent_temporary>
@@ -85,25 +154,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="501" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1580893365020">
+    <state x="534" y="213" width="424" height="491" key="FileChooserDialogImpl" timestamp="1582001638426">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="501" y="155" width="424" height="491" key="FileChooserDialogImpl/70.27.1296.741@70.27.1296.741" timestamp="1580893365020" />
-    <state width="1273" height="172" key="GridCell.Tab.0.bottom" timestamp="1580800298770">
+    <state x="534" y="213" width="424" height="491" key="FileChooserDialogImpl/70.27.1296.741@70.27.1296.741" timestamp="1582001638426" />
+    <state width="1273" height="172" key="GridCell.Tab.0.bottom" timestamp="1582001782634">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="172" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1580800298770" />
-    <state width="1273" height="172" key="GridCell.Tab.0.center" timestamp="1580800298769">
+    <state width="1273" height="172" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1582001782634" />
+    <state width="1273" height="172" key="GridCell.Tab.0.center" timestamp="1582001782633">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="172" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1580800298769" />
-    <state width="1273" height="172" key="GridCell.Tab.0.left" timestamp="1580800298768">
+    <state width="1273" height="172" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1582001782633" />
+    <state width="1273" height="172" key="GridCell.Tab.0.left" timestamp="1582001782633">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="172" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1580800298768" />
-    <state width="1273" height="172" key="GridCell.Tab.0.right" timestamp="1580800298769">
+    <state width="1273" height="172" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1582001782633" />
+    <state width="1273" height="172" key="GridCell.Tab.0.right" timestamp="1582001782633">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1273" height="172" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1580800298769" />
+    <state width="1273" height="172" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1582001782633" />
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1581916535043">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1581916535043" />
+    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1581504676341">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1581504676341" />
   </component>
 </project>
